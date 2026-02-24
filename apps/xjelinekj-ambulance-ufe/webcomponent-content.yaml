@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: xjelinekj-ambulance-ufe-content
+spec:
+  microFrontend: xjelinekj-ambulance-ufe
+  element: xjelinekj-ambulance-wl-list
+  displayRules:
+    - allOf:
+        - context-name: main-content
+        - path: "^(\\.?/)?<pfx>-ambulance-wl(/.*)?$"
