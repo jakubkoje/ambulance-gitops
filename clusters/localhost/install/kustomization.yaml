@@ -10,3 +10,6 @@ labels:
 
 resources:
   - ../../../apps/xjelinekj-ambulance-ufe
+
+components:
+  - ../../../components/version-developers
