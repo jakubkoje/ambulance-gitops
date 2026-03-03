@@ -4,7 +4,7 @@ metadata:
   name: xjelinekj-ambulance-ufe-content
 spec:
   microFrontend: xjelinekj-ambulance-ufe
-  element: xjelinekj-ambulance-wl-list
+  element: xjelinekj-ambulance-wl-app
   displayRules:
     - allOf:
         - context-name: main-content
