@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: xjelinekj-ambulance-webapi
+spec:
+  template:
+    spec:
+      containers:
+        - name: openapi-ui
+          env:
+            - name: URL
+              value: /xjelinekj-openapi
+            - name: BASE_URL
+              value: /xjelinekj-openapi-ui
+        - name: xjelinekj-ambulance-wl-webapi-container
+          image: xjelinekj/ambulance-wl-webapi:latest

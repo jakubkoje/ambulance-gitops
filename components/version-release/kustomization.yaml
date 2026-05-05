@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1alpha1
+kind: Component
+
+images:
+  - name: xjelinekj/ambulance-ufe
+    newName: xjelinekj/ambulance-ufe
+    newTag: 1.0.0
+  - name: xjelinekj/ambulance-wl-webapi
+    newName: xjelinekj/ambulance-wl-webapi
+    newTag: 1.0.0
