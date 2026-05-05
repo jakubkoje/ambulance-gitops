@@ -5,7 +5,7 @@ labels:
   - pairs:
       app.kubernetes.io/name: xjelinekj-apps
       app.kubernetes.io/instance: release
-      app.kubernetes.io/version: "1.1.0"
+      app.kubernetes.io/version: "1.1.1"
       wac-fiit.github.io/project: xjelinekj-ambulance-wl
 
 resources:

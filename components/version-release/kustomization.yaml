@@ -4,7 +4,7 @@ kind: Component
 images:
   - name: xjelinekj/ambulance-ufe
     newName: xjelinekj/ambulance-ufe
-    newTag: 1.1.0
+    newTag: 1.1.1
   - name: xjelinekj/ambulance-wl-webapi
     newName: xjelinekj/ambulance-wl-webapi
-    newTag: 1.1.0
+    newTag: 1.1.1

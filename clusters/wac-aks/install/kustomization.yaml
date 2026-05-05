@@ -26,5 +26,5 @@ patches:
       name: xjelinekj-ambulance-ufe-content
     patch: |-
       - op: replace
-        path: /spec/attributes/0/value
+        path: /spec/attributes/1/value
         value: /xjelinekj-api
