@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: xjelinekj-ambulance-wl
+spec:
+  title: "Zoznam cakajucich xjelinekj"
+  description: "Spravuje zoznam pacientov cakajucich na vysetrenie v ambulancii"
+  authors: "Jakub Jelinek"
+  azureLink: "https://wac-hospital.westeurope.cloudapp.azure.com/fea/xjelinekj-ambulance-wl"
+  frontendRepoUrl: "https://github.com/jakubkoje/ambulance-ufe"
+  backendRepoUrl: "https://github.com/jakubkoje/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/jakubkoje/ambulance-gitops"

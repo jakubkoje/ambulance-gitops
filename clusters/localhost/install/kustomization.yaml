@@ -10,6 +10,9 @@ labels:
 
 resources:
   - ../../../apps/xjelinekj-ambulance-ufe
+  - ../../../apps/xjelinekj-ambulance-webapi
+  - ../../../apps/mongo-express
 
 components:
   - ../../../components/version-developers
+  - https://github.com/jakubkoje/ambulance-webapi//deployments/kustomize/components/mongodb

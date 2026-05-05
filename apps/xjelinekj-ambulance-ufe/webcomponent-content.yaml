@@ -7,7 +7,7 @@ spec:
   element: xjelinekj-ambulance-wl-app
   attributes:
     - name: api-base
-      value: http://localhost:5001/api
+      value: /xjelinekj-api
     - name: ambulance-id
       value: bobulova
   displayRules:
